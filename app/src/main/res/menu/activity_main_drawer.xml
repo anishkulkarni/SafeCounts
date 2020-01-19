@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/safety_score"
+            android:icon="@drawable/ic_dashboard_white_24dp"
+            android:title="Driving Safety Score" />
+        <item
+            android:id="@+id/analysis"
+            android:icon="@drawable/ic_assessment_white_24dp"
+            android:title="Analysis" />
+        <item android:id="@+id/live"
+            android:icon="@drawable/ic_my_location_white_24dp"
+            android:title="Live Tracking"/>
+        <item
+            android:id="@+id/database"
+            android:icon="@drawable/ic_dvr_white_24dp"
+            android:title="All Speed Captures" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_white_24dp"
+            android:title="Help" />
+    </group>
+</menu>
